@@ -1,6 +1,6 @@
 # **CF2 - Comercio de productos mayoristas**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **Enlace GitHubPages**
 
 [https://ecored-sena.github.io/CF2_631104_COMERCIO_PRODUCTOS_MAYORISTAS/](https://ecored-sena.github.io/CF2_631104_COMERCIO_PRODUCTOS_MAYORISTAS/)
 
