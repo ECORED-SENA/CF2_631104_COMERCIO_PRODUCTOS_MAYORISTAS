@@ -64,7 +64,7 @@ export default {
     color: $color-banner-text
 
   .tarjeta
-    background-color: #FFC664
+    background-color: #00E7BF
     background-size: cover
     //background-position: center
 

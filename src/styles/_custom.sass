@@ -71,7 +71,93 @@
   background-image: url("../assets/curso/portada/interno.svg") !important
   background-repeat: no-repeat
   background-color: #00E7BF !important
-
+//FONDOS DE CONTENIDO//
+.bg_grad-01
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 92px
+    width: 16%
+    height: 42%
+    background-color: #C5EAFB
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      width: 54%
+      height: 21%
+      left: 0
 //COLOR DE FONDO//
 .bgr
   background-color: #ECFFFC
+  &_1
+    background-color: #D1CAFE
+    &::before
+      background-color: #4A2EFC
+  &_2
+    background-color: #FFF0A6
+  &_3
+    background-color: #DBFFFA
+  &_4
+    background-color: #FFF9D9
+  &_5
+    background-color: #C0B6FE
+  &_6
+    background-color: #FFF9D9
+
+//POSICION EN PANTALLA//
+.pst
+  position: absolute
+  top: -13px
+  right: -36px
+  width: 87px
+  @media screen and (max-width: 420px)
+    right: -50px
+  &_1
+    left: 50%
+  &_2
+    right: 33%
+    width: 69%
+//PADDING//
+.PDD
+  padding: 4rem !important
+
+//CLASES SOBREESCRITAS//
+.modif
+  border-bottom: none
+  .tabs-c__content-item
+    background-color: #FDF0BF
+    border-radius: 20PX
+  .tabs-c__tab--active
+    background-color: #FFD400
+    border-radius: 10PX
+    padding-top: 2rem !important
+    padding-bottom: 2rem !important
+  .tabs-c__tab
+    border: 4px solid #FFD400
+    border-radius: 10px
+    margin: 2px
+    
+  &_1
+    .slyder-a__tipo-b
+      bottom: 20px
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      margin-left: 40px
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      margin-right: 40px
+.tmbot
+  .img-infografica__item
+    width: 4.5%
+.ptar
+  .img-infografica__card
+    top: 28% !important
+    right: -273px !important
+    width: 244px
+    
+  
+
+
