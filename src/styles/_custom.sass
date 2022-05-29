@@ -51,20 +51,24 @@
   display: flex
   justify-content: flex-start
   flex-direction: row
+.justify-between
+  display: flex
+  justify-content: space-between
+  flex-direction: row
 .align-items-center
-  display: flex;
-  align-items: flex-center;
-  flex-direction: row;
+  display: flex
+  align-items: flex-center
+  flex-direction: row
 .align-items-end
   display: flex
   align-items: flex-end
   flex-direction: row
 .justify-align
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center
+  flex-direction: row
 
 //FONDO BANNER INTERNO TEMAS//
 .banner-interno__fondo
@@ -91,6 +95,105 @@
       width: 54%
       height: 21%
       left: 0
+.bg_grad-02
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 92px
+    width: 16%
+    height: 19%
+    background-color: #FFF9D9
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      width: 54%
+      height: 21%
+      left: 0
+.bg_grad-03
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 248px
+    left: -9px
+    width: 28%
+    height: 19%
+    background-color: #E8F7FD
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      top: 516px
+      width: 54%
+      height: 21%
+      left: 0
+.bg_grad-04
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -30px
+    left: 448px
+    width: 28%
+    height: 42%
+    background-color: #FFFBEF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      top: -6px
+      width: 54%
+      height: 21%
+      left: 174px
+.bg_grad-05
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -17px
+    left: -8px
+    width: 33%
+    height: 31%
+    background-color: #FFFBEF
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      top: -6px
+      width: 54%
+      height: 21%
+      left: 174px
+.bg_grad-06
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -41px
+    left: -9px
+    width: 37%
+    height: 37%
+    background-color: #C5EAFB
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      top: -40px
+      width: 54%
+      height: 42%
+      left: 0
 //COLOR DE FONDO//
 .bgr
   background-color: #ECFFFC
@@ -108,6 +211,89 @@
     background-color: #C0B6FE
   &_6
     background-color: #FFF9D9
+  &_7
+    background-color: #00E7BF
+  &_8
+    background-color: #C5EAFB
+    border-radius: 10px
+    transition: transform .3s ease-in-out
+    &:hover
+      background-color: #F27B58
+      transform: scale(1.1)
+      transform: translateY(-30px)
+  &_9
+    background-color: #FFF9D9
+  &_10
+    background-color: #FFFBEF
+  &_11
+    background-color: #BFF9EF
+    &::before
+      background-color: #00E7BF
+  &_12
+    background-color: #F6F6F6
+    &::before
+      background-color: #00E7BF
+  &_13
+    background-color: #F6F6F6
+    &::before
+      background-color: #AAFDEE
+  &_14
+    background-color: #F6F6F6
+    height: 119px
+    @media screen and (max-width: 420px)
+      height: 70px
+    &::before
+      background-color: #492DFB
+  &_15
+    background-color: #F6F6F6
+    height: 98px
+    @media screen and (max-width: 420px)
+      height: 70px
+    &::before
+      background-color: #C0B6FE
+  &_16
+    background-color: #F6F6F6
+    &::before
+      background-color: #F27B58
+  &_17
+    background-color: #F6F6F6
+    &::before
+      background-color: #FFBAA5
+  &_18
+    background-color: #F6F6F6
+    &::before
+      background-color: #FFD400
+  &_19
+    background-color: #F6F6F6
+    &::before
+      background-color: #FFF4BC
+  &_20
+    background-color: #FFFBEF
+    border-radius: 10px
+  &_21
+    background-color: #D1CAFE
+    &::before
+      background-color: #4A2EFC
+  &_22
+    .tarjeta--azul
+      background-color: #F6F6F6
+    .tarjeta--azul.acordion__activo
+      background-color: #C7F8FA
+  &_23
+    background-color: #C5EAFB
+    border-radius: 10px
+    transition: transform .3s ease-in-out
+    &:hover
+      background-color: #FFD400
+      transform: scale(1.1)
+      transform: translateY(-30px)
+  &_24
+    background-color: #E8F7FD
+    border-radius: 20px
+  
+.colr
+  *
+    color: #12263F !important
 
 //POSICION EN PANTALLA//
 .pst
@@ -119,12 +305,25 @@
     right: -50px
   &_1
     left: 50%
+    @media screen and (max-width: 420px)
+      left: 0
   &_2
     right: 33%
     width: 69%
+    margin-top: 0 !important
+    @media screen and (max-width: 420px)
+      right: 0
+      width: 100%
+      margin-top: 190px !important
+  &_3
+    width: 81%
+    margin-top: 24px
+      
 //PADDING//
 .PDD
   padding: 4rem !important
+  @media screen and (max-width: 420px)
+    padding: 1rem !important
 
 //CLASES SOBREESCRITAS//
 .modif
@@ -141,7 +340,6 @@
     border: 4px solid #FFD400
     border-radius: 10px
     margin: 2px
-    
   &_1
     .slyder-a__tipo-b
       bottom: 20px
@@ -149,14 +347,87 @@
       margin-left: 40px
     .slyder-a__tipo-b .slyder-a__btn--sigt
       margin-right: 40px
+  &_2
+    border-bottom: none
+    .tabs-c__content-item
+      background-color: #F1FAFE
+      border-radius: 20PX
+    .tabs-c__tab--active
+      background-color: #C5EAFB
+      border-radius: 10PX
+      padding-top: 2rem !important
+      padding-bottom: 2rem !important
+    .tabs-c__tab
+      border: 4px solid #C5EAFB
+      border-radius: 10px
+      margin: 2px
+  &_3
+    right: -29px !important
+    width: 70% !important
+    @media screen and (max-width: 420px)
+      right: 0 !important
+      width: 100% !important
+  &_4
+    .horizontal-scroll
+      align-items: stretch !important
+    .slyder-a__tipo-b
+      margin-top: -4rem !important
+      width: 470px
+      left: 495px
+      @media screen and (max-width: 420px)
+        margin-top: -1rem !important
+        width: 100%
+        left: 0
+  &_5
+    .tabs-a__tab
+      background-color: #F6F6F6
+  &_6
+    background-color: #FFFBEF
+    color: #12263F;
+    border: solid 4px #FFF4CC
+  &_7
+    .slyder-a__btn--atrs
+      background-color: #00E7BF
+      background-image: url("../assets/componentes/arrow1.svg")
+      transform: rotate(0deg)  
+    .slyder-a__btn--sigt
+      background-color: #00E7BF
+      background-image: url("../assets/componentes/arrow1.svg")
+      transform: rotate(180deg)
+    .slyder-a__bullets__item--active
+      background-color: #4A2EFC !important
+    .slyder-a__bullets__item
+      background-color: #A6B3FB
+
 .tmbot
   .img-infografica__item
     width: 4.5%
 .ptar
   .img-infografica__card
     top: 28% !important
-    right: -273px !important
+    right: 100px !important
     width: 244px
+    @media screen and (max-width: 420px)
+      top: 20% !important
+      right: 16% !important
+      background-color: $color-secundario
+      border-radius: 10px
+      height: 60%
+  &_1
+    .img-infografica__card
+      top: 17% !important
+      left: 886px !important
+      @media screen and (max-width: 420px)
+        top: 0% !important
+        left: 5% !important
+
+  
+
+
+
+    
+
+  
     
   
 
