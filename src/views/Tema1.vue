@@ -296,7 +296,7 @@
     
     .row.mb-5
       .col-12.col-lg-4.mb-3.mb-lg-0
-        .bgr_8.p-5
+        .bgr_8.p-5.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema1/t1-20.svg' alt='AvatarTop')
           p.mb-0.text-center Las empresas logran una ventaja competitiva cuando llevan a cabo una excelente logística ya que esto garantiza mejor servicio a precios bajos.
@@ -306,7 +306,7 @@
             img.img90(src='@/assets/curso/tema1/t1-21.svg' alt='AvatarTop')
           p.mb-0.text-center Se consigue ahorrar en costos tanto para la empresa como para los clientes teniendo en cuenta que más o menos el 15% del precio de los productos corresponde al transporte.
       .col-12.col-lg-4
-        .bgr_8.p-5
+        .bgr_8.p-5.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema1/t1-22.svg' alt='AvatarTop')
           p.mb-0.text-center La herramienta digital de la logística son los códigos de barra, estos rastrean el transporte vía satélite, también la entrega electrónica de los pedidos y los pagos.

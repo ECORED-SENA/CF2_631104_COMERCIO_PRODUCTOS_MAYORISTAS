@@ -17,7 +17,7 @@
     
     p.mb-5 Para conocer los objetivos de exhibición de mercancía revise la siguiente información:
 
-    .row.justify-center
+    .row.justify-center.mb-5
       .col-12.col-lg-5.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema3/t3-2.svg' alt='AvatarTop')
