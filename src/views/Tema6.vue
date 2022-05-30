@@ -7,7 +7,7 @@
         span 6
       h1 Plan promocional, actividades y materiales
     
-    .row.justify-center.mb-5
+    .row.justify-center.mb-5(data-aos="zoom-in-up")
       .col-12.col-lg-10
         .bloque-texto-g.bgr_6.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img.pst_1(
@@ -18,7 +18,7 @@
     
     h3.justify-center.mb-5 Planes promocionales 
 
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in-down")
       img(src='@/assets/curso/tema6/t6-2.svg', alt='Texto que describa la imagen')
 
     p.mb-5 Los objetivos principales para crear un plan promocional son:
@@ -30,7 +30,7 @@
 
     p.mb-5 Para realizar un plan promocional hay que tener en claro los objetivos de la promoción y las estrategias a realizar; los principales pasos a seguir son:
 
-    .bg_grad-07
+    .bg_grad-07(data-aos="zoom-in-down")
       LineaTiempoE.color-acento-contenido
         .row(titulo="01" subtitulo="Objetivos de la promoción")
           .col-lg-12.mb-4.mb-lg-0

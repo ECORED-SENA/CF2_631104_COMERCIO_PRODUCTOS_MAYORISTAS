@@ -9,13 +9,13 @@
     
     .bg_grad-01
       .row.mb-5.justify-center
-        .col-12.col-lg-5.p-4.p-lg-5
+        .col-12.col-lg-5.p-4.p-lg-5(data-aos="fade-right")
           p El concepto de distribución comercial abarca dos aspectos fundamentales que dependen del entorno, se entiende la distribución comercial como un sector de la economía y también como un proceso empresarial.
-        .col-12.col-lg-5
+        .col-12.col-lg-5(data-aos="fade-left")
           figure.mb-3  
             img(src='@/assets/curso/tema1/t1-1.png' alt='AvatarTop')
     
-    .row.mb-5.justify-center
+    .row.mb-5.justify-center(data-aos="fade-down")
       .col-12.col-lg-8
         TabsC.color-acento-botones.modif
           .py-3.py-md-4.px-3.px-md-4(titulo="Sector de la economía")
@@ -25,7 +25,7 @@
     
     p.mb-5 Como sector de la economía se considera el enlace que existe entre las empresas productivas y los centros de consumo que es donde llegan los productos para su comercialización y como proceso empresarial su dinámica es la oferta y la demanda, siendo responsables los intermediarios comerciales que ofrecen sus productos al mercado a través de los diferentes formatos comerciales, que a su vez pueden ser distribuidoras y no distribuidoras.
 
-    .row.justify-center.mb-5
+    .row.justify-center.mb-5(data-aos="fade-up")
       .col-12.col-lg-10
         .row.cajon.bgr_1.align-items-center.p-3
           .col-12.col-lg-2
@@ -36,11 +36,11 @@
     
     p.mb-5 Existen otros conceptos de distribución comercial plasmados por diferentes autores, para conocerlos revise con atención el siguiente recurso educativo: 
 
-    figure.mb-5
+    figure.mb-5(data-aos="fade-down")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-12.col-lg-5
         h3.p-3.bgr_2 Algunos conceptos sobre distribución comercial
 
@@ -64,7 +64,7 @@
       h5 Figura 1
       span <em>Proceso empresarial de la distribución comercial</em>
 
-    .row.mb-5.justify-center
+    .row.mb-5.justify-center(data-aos="zoom-in-up")
       .col-12.col-lg-8
         figure.mb-3
           img(src='@/assets/curso/tema1/t1-4.svg' alt='AvatarTop')
@@ -93,7 +93,7 @@
             .col-12
               h4 4. Utilidad de posesión:
               p Es la distribución comercial que entrega la cantidad de productos requerida.
-      .col-12.col-lg-5
+      .col-12.col-lg-5(data-aos="zoom-in-down")
         figure.mb-3
           img(src='@/assets/curso/tema1/t1-5.svg' alt='AvatarTop')
 
@@ -102,7 +102,7 @@
     #t_1_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 1.1  Intermediarios y tipos de intermediarios
 
-    .row.justify-center.mb-5
+    .row.justify-center.mb-5(data-aos="zoom-out-up")
       .col-12.col-lg-10
         .bloque-texto-g.bgr_5.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -111,7 +111,7 @@
           .bloque-texto-g__texto.p-4.p-lg-5
             p.mb-0 Un intermediario es aquella persona que está ubicado entre el fabricante, el productor y el consumidor final, su tarea fundamental es hacer que el servicio o producto llegue al punto de venta de manera rápida y segura.
     
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-10.col-lg-4.position-relative
         h3.p-3.bgr_2.text-center Tipos de intermediarios
         img.pst(src='@/assets/curso/tema1/t1-7.svg' alt='AvatarTop')
@@ -123,7 +123,7 @@
     
     p.mb-5 En la distribución comercial intervienen varios tipos de intermediarios, estos van desde los mayoristas hasta los minoristas, todos tienen como objetivo que los productos lleguen al consumidor final; para conocer los tipos de intermediarios revise con atención el siguiente recurso educativo: 
 
-    .row.justify-center
+    .row.justify-center(data-aos="zoom-out-up")
       .col-12.col-lg-8
         .row.justify-center
           .col-12.col-lg-5
@@ -155,7 +155,7 @@
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 1.2  Canales de distribución
 
-    .row.justify-center.mb-5
+    .row.justify-center.mb-5(data-aos="zoom-out-up")
       .col-12.col-lg-10
         .bloque-texto-g.bgr_6.p-3.p-sm-4.PDD
           .bloque-texto-g__img.pst_1(
@@ -170,10 +170,10 @@
       span Funciones de canales de distribución 
     
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/t1-11.svg' alt='AvatarTop')
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="fade-left")
         ol.lista-ol--cuadro
           li.mb-4 
             .lista-ol--cuadro__vineta
@@ -199,7 +199,7 @@
             .lista-ol--cuadro__vineta
               span 6
             | Ofrecer la variedad de productos.
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="fade-right")
         ol.lista-ol--cuadro
           li.mb-4 
             .lista-ol--cuadro__vineta
@@ -225,7 +225,7 @@
     
     p.mb-5 La importancia de los canales de distribución es principalmente la separación geográfica, local o cronológica (de tiempo) en este proceso se realizan labores de almacenamiento, transporte y venta de los productos, estos van desde el productor al consumidor final gracias a mayoristas y minoristas. Veamos qué función cumple cada uno de ellos en este proceso: 
 
-    .row.mb-5.justify-center
+    .row.mb-5.justify-center(data-aos="fade-down")
       .col-12.col-lg-8
         TabsC.color-secundario.modif_2
           .py-3.py-md-4.px-3.px-md-4(titulo="Mayoristas")
@@ -237,7 +237,7 @@
               img(src='@/assets/curso/tema1/t1-13.png' alt='AvatarTop')
             p.mb-0 Articulan la oferta de los mayoristas y fabricantes con el cliente final de los productos y, al igual que el mayorista, realizan funciones aparte de las genéricas que justifican su existencia, como agrupar los productos de diferentes oferentes y crear un surtido para el consumidor final.
 
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-10.col-lg-4.position-relative
         h3.p-3.bgr_2.text-center Tipos de canales de distribución 
         img.pst(src='@/assets/curso/tema1/t1-14.svg' alt='AvatarTop')
@@ -245,7 +245,7 @@
     p Los tipos de canales de distribución son los medios que las empresas eligen para aproximar los productos y servicios al consumidor final, cuyo objetivo es que el producto llegue en el momento acordado, las cantidades estimadas y con precios convenientes para todos.  
     p.mb-5 Para conocer los tipos de canales de distribución revise con atención el siguiente recurso educativo: 
 
-    .row.justify-center
+    .row.justify-center(data-aos="zoom-out-up")
       .col-12.col-lg-10
         figure
           img(src='@/assets/curso/tema1/t1-15.svg' alt='AvatarTop')
@@ -255,7 +255,7 @@
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
       .h2 1.3  Logística comercial
 
-    .row.justify-center.mb-5
+    .row.justify-center.mb-5(data-aos="zoom-in-down")
       .col-12.col-lg-10
         .bloque-texto-g.bgr_5.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -283,29 +283,29 @@
 
     .bg_grad-02
       .row.mb-5.justify-center
-        .col-12.col-lg-5.p-4.p-lg-5
+        .col-12.col-lg-5.p-4.p-lg-5(data-aos="fade-right")
           p La labor complementaria de la logística es llevar el control de los inventarios, definir los insumos y bienes que se requieren, registran cada materia prima utilizada en la elaboración del producto terminado o en proceso y también las acciones que indican cuántos artículos quedan en existencia, su ubicación y el responsable de ellos; la logística comercial es fundamental para evitar gastos innecesarios dentro de la organización y satisfacer al consumidor; finalmente, permiten mejorar la coordinación de factores que repercuten en la decisión de compra tanto en calidad, confianza, empaque, distribución, servicios y precio.
-        .col-12.col-lg-5
+        .col-12.col-lg-5(data-aos="fade-left")
           figure.mb-3  
             img(src='@/assets/curso/tema1/t1-18.png' alt='AvatarTop')
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-10.col-lg-4.position-relative
         h3.p-3.bgr_2.text-center Ventajas de una logística eficiente
         img.pst(src='@/assets/curso/tema1/t1-19.svg' alt='AvatarTop')
     
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-up")
         .bgr_8.p-5.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema1/t1-20.svg' alt='AvatarTop')
           p.mb-0.text-center Las empresas logran una ventaja competitiva cuando llevan a cabo una excelente logística ya que esto garantiza mejor servicio a precios bajos.
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-down")
         .bgr_8.p-5
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema1/t1-21.svg' alt='AvatarTop')
           p.mb-0.text-center Se consigue ahorrar en costos tanto para la empresa como para los clientes teniendo en cuenta que más o menos el 15% del precio de los productos corresponde al transporte.
-      .col-12.col-lg-4
+      .col-12.col-lg-4(data-aos="zoom-in-up")
         .bgr_8.p-5.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema1/t1-22.svg' alt='AvatarTop')
@@ -313,7 +313,7 @@
     
     p.mb-5 Para tener mayor claridad frente a las funciones que cumple la logística comercial revise con atención la siguiente información:
 
-    .row.justify-center
+    .row.justify-center(data-aos="zoom-in-down")
       .col-12.col-lg-10
         SlyderA(tipo="b").modif_4.bgr_9.p-4
           .row

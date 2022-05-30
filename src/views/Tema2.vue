@@ -8,17 +8,17 @@
       h1 Formatos comerciales, tipología
     
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/t2-1.png' alt='AvatarTop')
-      .col-12.col-lg-8.bg_grad-03
+      .col-12.col-lg-8.bg_grad-03(data-aos="fade-left")
         p Los formatos comerciales son lugares en donde se ubica un producto a disposición del usuario o cliente, la diferencia de los formatos comerciales se da por su tamaño y productos ofertados. 
         p.mb-0 La tendencia en Colombia es preferir nuevos formatos y canales comerciales de venta directa e independiente que les permita adquirir productos a precios económicos ya que se obtiene un beneficio a través de productos que se consideran de buena calidad y presentación, como ejemplo de estos formatos comerciales están las marcas registradas Ara, Justo y Bueno y D1, los cuales presentan un comportamiento dinámico y novedoso contando con una excelente aceptación de los consumidores, estos formatos comerciales pertenecen al sector del descuento duro, ya que se caracterizan por ofrecer precios económicos en la canasta familiar, frente a las grandes superficies que existen en el mercado, lo que hace que muchos clientes los prefieran a la hora de hacer compras. Son almacenes sencillos que no invierten en publicidad, cuentan con pocos empleados, carecen de impulsadores y ofrecen productos de pequeños y medianos empresarios que les permite ofrecer productos a bajos precios.
     
     p.mb-3 Con la evolución en el sector <em>Retail</em> (tipo de comercio que se caracteriza por vender al por menor) el comercio ha vivido una transformación en el comportamiento de los consumidores y los hábitos de consumo. Los productos de marca propia se ofrecen en estos formatos de venta al detal y se presentan como una nueva alternativa para los clientes, también permiten que su producción se haga en las PYMES colombianas que se convierten en proveedores y gestores de empleo.
     p.mb-5 Para conocer los tipos de formatos comerciales tradicionales, revise con atención el recurso que se propone a continuación:
 
-    LineaTiempoC.color-acento-contenido.mb-5(text-small).bgr_10.p-4
+    LineaTiempoC.color-acento-contenido.mb-5(text-small).bgr_10.p-4(data-aos="fade-right")
       .row(titulo="1")
         .col-md-4.mb-3.mb-lg-0
           figure
@@ -83,7 +83,7 @@
           p.text-bold 9. Tiendas por departamentos
           p Son establecimientos de gran tamaño que ordenan los productos que ofrecen en su interior en departamentos o categoría como ejemplo ferretería, ropa para damas, ropa para caballeros, productos para el hogar, tecnología, entre otros. Requieren de muchos empleados para poder entregar una buena atención al cliente. Ejemplo: Alkosto.
 
-    .row.justify-center
+    .row.justify-center(data-aos="fade-left")
       .col-12.col-lg-10  
         .cajon.bgr_11.p-4.mb-4
           p.mb-0 Para concluir, se puede decir que <b>los establecimientos comerciales son espacios físicos importantes en los que se promociona y ofrecen bienes y servicios de tal forma que existan procesos de compra por parte de los clientes</b> y que, dependiendo del tipo de consumidor, de los productos que se ofrecen y del tamaño del lugar pueden ser de diferente naturaleza.

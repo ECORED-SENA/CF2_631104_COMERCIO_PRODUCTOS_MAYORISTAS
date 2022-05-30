@@ -6,7 +6,7 @@
     p Todas las empresas que quieran tener éxito en su negocio deben implementar estrategias para la exhibición de su mercancía, desde esta perspectiva resulta fundamental conocer los medios y los elementos con lo que se dispone para realizar dicha tareas, la cual va a permitir obtener  beneficios significativos para todos los miembros de una organización, desde esta perspectiva, el objetivo principal de este espacio de formación es dar a conocer los mecanismos necesarios que un empresario puede utilizar para dar a conocer al usuario sus productos y servicios y ser competitivo en el mercado. 
     p.mb-5 Sabiendo esto y para una breve revisión de los temas vistos, puede observar el siguiente esquema:
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="slide-left")
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/sintesis.svg", alt="alt")

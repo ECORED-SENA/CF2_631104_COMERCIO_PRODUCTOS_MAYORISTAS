@@ -8,20 +8,20 @@
       h1 Exhibición de mercancía
 
     .row.justify-center.mb-5.align-items-center  
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/t3-1.png' alt='AvatarTop')
-      .col-12.col-lg-6.bg_grad-04
+      .col-12.col-lg-6.bg_grad-04(data-aos="fade-left")
         p Es el proceso donde se seleccionan, ubican y exponen los artículos en el punto de venta, de tal forma que llamen la atención del cliente invitándolo a la compra, la exhibición comercial se selecciona según el tamaño y tipo de establecimiento condicionando la distribución de los productos a ofertar. 
         p.mb-0 La exposición de los artículos en un almacén o establecimiento se hace mediante el uso de un mobiliario especial que permite mostrar al cliente la mayor cantidad de productos, durante el mayor tiempo posible:
     
     p.mb-5 Para conocer los objetivos de exhibición de mercancía revise la siguiente información:
 
     .row.justify-center.mb-5
-      .col-12.col-lg-5.mb-3.mb-lg-0
+      .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="zoom-in-up")
         figure
           img(src='@/assets/curso/tema3/t3-2.svg' alt='AvatarTop')
-      .col-12.col-lg-3
+      .col-12.col-lg-3(data-aos="zoom-in-down")
         .cajon.bgr_12.p-4.mb-4
           p.mb-0 1. Llamar la atención del cliente para que vea los productos.
         .cajon.bgr_13.p-4.mb-4
@@ -30,7 +30,7 @@
           p.mb-0 3. Exhibir los productos.
         .cajon.bgr_15.p-4.mb-4.align-items-center
           p.mb-0 4. Ofrecer comodidad al cliente.
-      .col-12.col-lg-3
+      .col-12.col-lg-3(data-aos="zoom-in-up")
         .cajon.bgr_16.p-4.mb-4
           p.mb-0 5. Disponer de pasillos amplios entre los muebles exhibidores.
         .cajon.bgr_17.p-4.mb-4
@@ -42,7 +42,7 @@
     
     p.mb-5 Según sea la disposición del establecimiento, el administrador que es el responsable del lugar y de la exhibición, tiene como objetivo organizarlo según:
 
-    .row.mb-5.justify-center
+    .row.mb-5.justify-center(data-aos="zoom-in-up")
       .col-12.col-lg-8
         .row.justify-center
           hr.pst_3
@@ -92,7 +92,7 @@
 
     p.mb-5 Una vez organizado el interior del establecimiento, determinadas las diferentes secciones y definidos los espacios de los pasillos, se puede considerar el uso de los tipos de exhibición y el layout (diseño) del surtido.     
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-10.col-lg-4.position-relative
         h3.p-3.bgr_2.text-center Tipos de exhibición
         img.pst(src='@/assets/curso/tema3/t3-8.svg' alt='AvatarTop')
@@ -100,10 +100,10 @@
     p.mb-5 No importa cuál sea el tipo de exhibición que se elija en el establecimiento, deberá motivar en el cliente la acción de compra, por lo que se deben tener en cuenta las actividades programadas en el punto de venta, lo mismo que la temporada y los objetivos de venta. De esta manera se puede pensar en tener “exhibiciones especiales” y “exhibiciones secundarias o adicionales” (por fuera del lineal y la góndola).
 
     .row.justify-center.mb-5
-      .col-12.col-lg-5.mb-3.mb-lg-0.bg_grad-05
+      .col-12.col-lg-5.mb-3.mb-lg-0.bg_grad-05(data-aos="fade-right")
         p Una exhibición debe contar con una excelente exposición de los productos para poder llamar la atención del público que con frecuencia visita el establecimiento. En cada sección se debe emplear un buen merchandising (promoción o comercialización) y utilizar los mejores elementos para su producción, lo cual es vital en la rotación del artículo que forme parte de la exhibición.
         p.mb-0 Por lo general, los clientes toman las decisiones de compra directamente en el punto de venta, por lo que una efectiva exhibición de los artículos puede influir positivamente en la toma de la decisión.
-      .col-12.col-lg-5
+      .col-12.col-lg-5(data-aos="fade-left")
         figure.justify-center
           img(src='@/assets/curso/tema3/t3-9.png' alt='AvatarTop')
     
@@ -134,7 +134,7 @@
             p.text-bold 6. Exhibición horizontal
             p.mb-0 El producto se ubica en sus diferentes variedades, a lo largo de la estantería.
 
-    .row.mb-5.justify-center
+    .row.mb-5.justify-center(data-aos="zoom-in-down")
       .col-12.col-lg-10  
         .cajon.bgr_21.p-4.mb-4
           p.mb-0 La cantidad de formas para exhibir los productos en el punto de venta es muy amplia y variada. Lo importante es que son aplicables a cualquier establecimiento comercial, de tal forma, que los espacios sean aprovechados al máximo al interior del local. Por esta razón es vital planear adecuadamente en qué forma se van a exhibir los artículos, cómo se van a distribuir los lineales, las góndolas, los muebles, las vitrinas, el escaparate y demás elementos que le darán forma al establecimiento.
@@ -145,7 +145,7 @@
 
     p.mb-5 Una exhibición debe tener un grupo de características que avalen su funcionalidad y logren que se cumplan los objetivos del establecimiento. Por esta razón, la exhibición debe ser visible y atractiva a los ojos del cliente y, además, debe comunicar, puesto que el <em>merchandising</em> es comunicación visual en el interior del establecimiento.
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_22
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_22(data-aos="zoom-in-down")
       .row(titulo="Características de la exhibición").p-3.p-lg-5
         .col-md-6.mb-3.mb-lg-0
           figure
@@ -180,7 +180,7 @@
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right").mb-3
       span Puntos de acceso
     
-    TabsC.color-acento-contenido.mb-5
+    TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-up")
       .py-3.py-md-4(titulo="Paso 1")
         .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
@@ -214,29 +214,29 @@
             h4 Dos puertas
             p Por teoría, prácticamente carece de zonas frías ya que la circulación fluye de acuerdo al ingreso de las dos puertas. Por esto es vital encontrar la localización de las zonas con el fin de ubicar las secciones de forma estratégica.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-10.col-lg-4.position-relative
         h3.p-3.bgr_2.text-center Planograma o planimetría 
         img.pst(src='@/assets/curso/tema3/t3-24.svg' alt='AvatarTop')
         
     .row.mb-5
-      .col-12.col-lg-9
+      .col-12.col-lg-9(data-aos="fade-right")
         p #[strong El planograma es una herramienta necesaria para la gestión eficaz del espacio donde se exhiben los productos en los establecimientos minoristas,] teniendo en cuenta que en la actualidad existe un mercado más complejo y competitivo, en el que ha aumentado el tamaño de las tiendas y el número de categorías de productos. Esta herramienta tiene como objetivos mejorar la presentación de los artículos y aumentar las ventas. 
         p Planograma se define como instrumento del <em>merchandising</em> (promoción comercial) en el diseño o croquis (dibujo) a través de un software que describe detalladamente el lugar y diámetro en el que se van a ubicar los productos.
         p.mb-0 Esta herramienta permite especificar la cantidad de productos y el número de caras con las que van a presentar la oferta, estas son la altura, profundidad y distancia que deben ocupar las distintas referencias. Se entiende por caras o <em>“facing”</em> al número de caras de un mismo producto que se necesitan para que el cliente los visualice.
-      .col-12.col-lg-3 
+      .col-12.col-lg-3(data-aos="fade-left") 
         figure
           img(src='@/assets/curso/tema3/t3-25.png', alt='Texto que describa la imagen')
           
     p.mb-5 Las funciones principales del planograma son: 
 
     .row.mb-5.justify-center
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-up")
         .bgr_8.p-5.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema3/t3-26.svg' alt='AvatarTop')
           p.mb-0.text-center Mejorar la ubicación de los productos, poniendo los productos más vendidos o que son más rentables en un nivel más destacado. 
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-down")
         .bgr_8.p-5
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema3/t3-27.svg' alt='AvatarTop')
@@ -244,7 +244,7 @@
       
     p.mb-5 Para conocer los beneficios del planograma revise con atención la siguiente información:
     
-    .row.mb-3.justify-center
+    .row.mb-3.justify-center(data-aos="zoom-in-up")
       .col-12.col-lg-10
         figure
           img(src='@/assets/curso/tema3/t3-28.svg' alt='AvatarTop')
@@ -269,14 +269,14 @@
           .titulo-sexto.color-acento-botones.mt-3
             span #[strong 8.] Es una herramienta efectiva para informar al personal la disposición determinada para el lineal.
 
-    .row.mb-5.justify-center
+    .row.mb-5.justify-center(data-aos="zoom-in-down")
       .col-12.col-lg-10  
         .cajon.bgr_21.p-4.mb-4
           p.mb-0 Cuando se diseña un planograma se debe tener en cuenta el espacio de acuerdo al rendimiento o rotación de los productos, la regla principal es asegurar que exista en el lineal producto suficiente que satisfaga la demanda del cliente. 
 
     p.mb-5 Partiendo de lo anterior se debe tener en cuenta:
 
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_22
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").bgr_22(data-aos="zoom-in-up")
       .row(titulo="Emplazamiento").px-5
         .col-md-10.mb-4.mb-md-0.align-items-center
           p.mb-0 Elegir el lugar del establecimiento donde se va a ubicar una determinada referencia, los artículos inmediatos y los lugares secundarios.
@@ -310,7 +310,7 @@
 
     p.mb-5 Para conocer los tipos de planograma revise la siguiente información: 
 
-    TabsA.color-acento-contenido.modif_5.mb-5
+    TabsA.color-acento-contenido.modif_5.mb-5(data-aos="zoom-in-down")
       .tarjeta.modif_6.p-4(titulo="Casillas con texto")
         .row.p-4  
           .col-12.col-lg-8
@@ -339,17 +339,17 @@
     p.mb-5 Cuando se establece un planograma se debe evitar:
 
     .row.mb-5.justify-center
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-up")
         .bgr_23.p-5.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema3/t3-37.svg' alt='AvatarTop')
           p.mb-0.text-center Puertas cercanas a las puertas de acceso o a los depósitos de mercancías.  
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-down")
         .bgr_23.p-5.h-100
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema3/t3-38.svg' alt='AvatarTop')
           p.mb-0.text-center Esquinas con poca iluminación.
-      .col-12.col-lg-4.mb-3.mb-lg-0
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-up")
         .bgr_23.p-5
           figure.mb-3.justify-center 
             img.img90(src='@/assets/curso/tema3/t3-39.svg' alt='AvatarTop')
@@ -360,10 +360,10 @@
     .row.justify-center  
       .col-12.col-lg-10
         .row.justify-between
-          .col-12.col-lg-5.mb-3.mb-lg-0 
+          .col-12.col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema3/t3-40.svg' alt='AvatarTop')
-          .col-12.col-lg-6
+          .col-12.col-lg-6(data-aos="fade-left")
             ol.lista-ol--cuadro.lista-ol--separador
               li 
                 .lista-ol--cuadro__vineta
