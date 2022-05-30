@@ -182,7 +182,7 @@
     
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Paso 1")
-        .row.p-5
+        .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
               img.img120(src='@/assets/curso/tema3/t3-20.svg', alt='Texto que describa la imagen')
@@ -190,7 +190,7 @@
             h4 Puerta a la derecha
             p Cuando el lugar de acceso está a la derecha, las zonas resultan de una línea diagonal que nace en el ángulo extremo izquierdo del punto de acceso y va hasta el ángulo extremo derecho más profundo de la superficie del establecimiento.
       .py-3.py-md-4(titulo="Paso 2")
-        .row.p-5
+        .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
               img.img120(src='@/assets/curso/tema3/t3-21.svg', alt='Texto que describa la imagen')
@@ -198,7 +198,7 @@
             h4 Puerta a la izquierda
             p Lo contrario a la puerta anterior. La línea diagonal que nace en el ángulo extremo derecho del punto de acceso y va hasta el ángulo extremo izquierdo más profundo de la superficie del establecimiento.
       .py-3.py-md-4(titulo="Paso 3")
-        .row.p-5
+        .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
               img.img120(src='@/assets/curso/tema3/t3-22.svg', alt='Texto que describa la imagen')
@@ -206,7 +206,7 @@
             h4 Puerta en el centro
             p Se define de acuerdo a la circulación del cliente. Se traza una línea recta vertical hasta el centro del establecimiento y de ahí se traza otra línea recta horizontal hacia el costado izquierdo de la superficie del local
       .py-3.py-md-4(titulo="Paso 4")
-        .row.p-5
+        .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
               img.img120(src='@/assets/curso/tema3/t3-23.svg', alt='Texto que describa la imagen')

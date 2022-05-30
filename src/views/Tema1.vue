@@ -29,10 +29,10 @@
       .col-12.col-lg-10
         .row.cajon.bgr_1.align-items-center.p-3
           .col-12.col-lg-2
-            figure.mb-3
-              img(src='@/assets/curso/tema1/t1-2.svg' alt='AvatarTop')
+            figure.mb-3.justify-center
+              img.img100(src='@/assets/curso/tema1/t1-2.svg' alt='AvatarTop')
           .col-12.col-lg-10
-            p.mb-0 Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
+            p.mb-0 #[strong ¡Atención!] Recuerde que las empresas distribuidoras permiten un vínculo entre los negociantes, que llegan a adquirir los productos que revenden (mayoristas y minoristas); mientras que las empresas no distribuidoras se limitan a ser las representantes del fabricante en la venta de sus productos a cambio de una compensación (agentes comerciales):
     
     p.mb-5 Existen otros conceptos de distribución comercial plasmados por diferentes autores, para conocerlos revise con atención el siguiente recurso educativo: 
 

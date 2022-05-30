@@ -11,6 +11,8 @@
    max-width: 80px !important
 .img90
   max-width: 90px !important
+.img100
+  max-width: 100px !important
 .img120
   max-width: 120px !important
 .img140
@@ -194,6 +196,96 @@
       width: 54%
       height: 42%
       left: 0
+.bg_grad-07
+  position: relative
+  .linea-tiempo-e
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 100%); 
+    background-repeat: no-repeat
+    background-size: contain
+.bg_grad-08
+  position: relative
+  p,
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 68px
+    left: 185px
+    width: 22%
+    height: 55%
+    background-color: #FFF9D9
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      width: 54%
+      height: 34%
+      left: 175px
+      top: 195px
+.bg_grad-09
+  position: relative
+  p,
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 38px
+    left: 44px
+    width: 30%
+    height: 81%
+    background-color: #FFF9D9
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      width: 62%
+      height: 54%
+      left: 35px
+      top: 98px
+.bg_grad-10
+  position: relative
+  p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 39px
+    left: -9px
+    width: 37%
+    height: 28%
+    background-color: #C5EAFB
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      top: -18px
+      width: 54%
+      height: 42%
+      left: 0
+.bg_grad-11
+  position: relative
+  p, .titulo-sexto, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 50%, rgba(255,255,255,1) 100%); 
+    background-repeat: no-repeat
+    background-size: contain
 //COLOR DE FONDO//
 .bgr
   background-color: #ECFFFC
@@ -290,10 +382,15 @@
   &_24
     background-color: #E8F7FD
     border-radius: 20px
-  
+  &_25
+    background-color: #FFFBEF
+    &::before
+      background-color: #FFD400
 .colr
   *
     color: #12263F !important
+  &_1
+    color: #F27B58 !important
 
 //POSICION EN PANTALLA//
 .pst
@@ -318,6 +415,38 @@
   &_3
     width: 81%
     margin-top: 24px
+  &_4
+    right: 33%
+    width: 69%
+    margin-top: 0 !important
+    @media screen and (max-width: 420px)
+      right: 0
+      width: 100%
+      margin-top: -14px !important
+  &_5
+    position: absolute
+    top: -12px
+    left: 0
+  &_6
+    position: absolute
+    bottom: -8px
+    left: 312px
+    transform: rotate(180deg)
+  &_7
+    position: absolute
+    bottom: -8px
+    left: 166px
+    transform: rotate(180deg)
+    @media screen and (max-width: 420px)
+      left: 219px
+
+  &_8
+    position: absolute
+    top: -25px
+    right: -15px
+    width: 66px
+
+
       
 //PADDING//
 .PDD
@@ -398,6 +527,7 @@
       background-color: #4A2EFC !important
     .slyder-a__bullets__item
       background-color: #A6B3FB
+ 
 
 .tmbot
   .img-infografica__item
