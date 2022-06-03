@@ -417,13 +417,13 @@ export default {
         titulo: 'Exhibición en islas',
         texto:
           'Es una forma de presentación masiva y solitaria de un artículo. Se ubican fuera del lineal o góndola y no tienen contacto con otro tipo de artículos.',
-        imagen: require('@/assets/curso/tema3/t3-12.png'),
+        imagen: require('@/assets/curso/tema3/t3-12.jpg'),
       },
       {
         titulo: 'Exhibición en ganchos',
         texto:
           'Especial para tiendas de ropa, de tal forma que se pueda crear un diseño impactante a la hora de colgar el vestuario de los ganchos.',
-        imagen: require('@/assets/curso/tema3/t3-13.png'),
+        imagen: require('@/assets/curso/tema3/t3-13.jpg'),
       },
       {
         titulo: 'Exhibición en punta de góndola',

@@ -154,7 +154,7 @@
                 p.text-bold 4. Comisionista
                 p.mb-0 Empresario que vende directamente al por menor, al consumidor final (en inglés, retail); es decir, es el último en el canal de distribución y tiene relación directa con cliente, el detallista es propietario de la mercancía que vende. 
               .tarjeta.p-3(x="67%" y="53%" numero="")
-                p.text-bold 5. Corredor de comercio o <em>bróker</em> (agente intermediario en operaciones financiera o comerciales)
+                p.mb-0.text-bold 5. Corredor de comercio o <em>bróker</em> (agente intermediario en operaciones financiera o comerciales)
                 p.mb-0 Es un intermediario esporádico, pone de acuerdo o relaciona a compradores y vendedores, trabaja por una comisión que acuerda con anterioridad. 
           .col-12.col-lg-4
             figure.mb-3
