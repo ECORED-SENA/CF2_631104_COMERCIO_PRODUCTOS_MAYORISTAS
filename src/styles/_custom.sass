@@ -5,6 +5,8 @@
   max-width: 40px !important
 .img50
   max-width: 50px !important
+.img60
+  max-width: 60px !important
 .img70
    max-width: 70px !important
 .img80
@@ -86,7 +88,7 @@
     content: ''
     position: absolute
     margin: 0
-    top: 0
+    top: 42px
     left: 92px
     width: 16%
     height: 42%
@@ -124,7 +126,7 @@
     content: ''
     position: absolute
     margin: 0
-    top: 248px
+    top: 311px
     left: -9px
     width: 28%
     height: 19%
@@ -184,7 +186,7 @@
     content: ''
     position: absolute
     margin: 0
-    top: -41px
+    top: 10px
     left: -9px
     width: 37%
     height: 37%
@@ -297,8 +299,10 @@
     background-color: #FFF0A6
   &_3
     background-color: #DBFFFA
+    border-radius: 20px
   &_4
     background-color: #FFF9D9
+    border-radius: 20px
   &_5
     background-color: #C0B6FE
   &_6
@@ -313,10 +317,13 @@
       background-color: #F27B58
       transform: scale(1.1)
       transform: translateY(-30px)
+      p
+        color: white
   &_9
     background-color: #FFF9D9
   &_10
     background-color: #FFFBEF
+    border-radius: 20px
   &_11
     background-color: #BFF9EF
     &::before
@@ -391,6 +398,11 @@
     color: #12263F !important
   &_1
     color: #F27B58 !important
+  &_2
+    color: #12263F
+  &_3
+    span
+      color: #12263F !important
 
 //POSICION EN PANTALLA//
 .pst
@@ -468,7 +480,12 @@
   .tabs-c__tab
     border: 4px solid #FFD400
     border-radius: 10px
-    margin: 2px
+    margin: 10px
+    &::after
+      width: 0px
+  .tabs-c__header
+    font-size: 18px;
+    font-weight: 700;
   &_1
     .slyder-a__tipo-b
       bottom: 20px
@@ -490,6 +507,12 @@
       border: 4px solid #C5EAFB
       border-radius: 10px
       margin: 2px
+      margin: 10px
+      &::after
+        width: 0px
+    .tabs-c__header
+      font-size: 18px;
+      font-weight: 700;
   &_3
     right: -29px !important
     width: 70% !important
@@ -510,6 +533,8 @@
   &_5
     .tabs-a__tab
       background-color: #F6F6F6
+    .tabs-a__tab__selected
+      color: white !important
   &_6
     background-color: #FFFBEF
     color: #12263F;
@@ -521,14 +546,38 @@
       transform: rotate(0deg)  
     .slyder-a__btn--sigt
       background-color: #00E7BF
-      background-image: url("../assets/componentes/arrow1.svg")
-      transform: rotate(180deg)
+      background-image: url("../assets/componentes/arrow2.svg")
+      transform: rotate(0deg)
     .slyder-a__bullets__item--active
       background-color: #4A2EFC !important
     .slyder-a__bullets__item
       background-color: #A6B3FB
- 
-
+  &_8
+    .slyder-a__btn--atrs
+      background-color: #F9D448
+      background-image: url("../assets/componentes/arrow3.svg")
+      transform: rotate(0deg)  
+    .slyder-a__btn--sigt
+      background-color: #F9D448
+      background-image: url("../assets/componentes/arrow4.svg")
+      transform: rotate(0deg)
+    .slyder-a__bullets__item--active
+      background-color: #4A2EFC !important
+    .slyder-a__bullets__item
+      background-color: #A6B3FB
+  &_9
+    .slyder-c__img 
+      border-radius: 0
+    .slyder-c__imagen
+      margin-bottom: 0 !important
+    .slyder-c__content
+      background-color: #F6F6F6;
+      padding: 2rem;
+  &_10
+    @media screen and (max-width: 420px)
+      .slyder-a__tipo-b .slyder-a__bullets
+        width: 200px
+      
 .tmbot
   .img-infografica__item
     width: 4.5%
@@ -537,6 +586,10 @@
     top: 28% !important
     right: -275px !important
     width: 244px
+    @media screen and (max-width: 1399px)
+      top: 16% !important;
+      right: -241px !important;
+      width: 219px;
     @media screen and (max-width: 420px)
       top: 20% !important
       right: 16% !important
@@ -550,6 +603,14 @@
       @media screen and (max-width: 420px)
         top: 0% !important
         left: 5% !important
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+  border-bottom-color: #394989 !important;
+  span 
+    font-weight: 700
+  &::before
+    border-top-color: #394989
+.tabs-c__content-item
+  background-color: #EDEDF0
 
   
 

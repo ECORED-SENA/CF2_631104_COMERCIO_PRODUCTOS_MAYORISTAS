@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-botones
-      .titulo-principal__numero
+      .titulo-principal__numero.colr_3
         span 6
       h1 Plan promocional, actividades y materiales
     
@@ -18,8 +18,10 @@
     
     h3.justify-center.mb-5 Planes promocionales 
 
-    figure.mb-5(data-aos="zoom-in-down")
-      img(src='@/assets/curso/tema6/t6-2.svg', alt='Texto que describa la imagen')
+    .row.mb-5.justify-center
+      .col-12.col-lg-10
+        figure.mb-5(data-aos="zoom-in-down")
+          img(src='@/assets/curso/tema6/t6-2.svg', alt='Texto que describa la imagen')
 
     p.mb-5 Los objetivos principales para crear un plan promocional son:
 

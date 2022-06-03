@@ -3,14 +3,14 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-botones
-      .titulo-principal__numero
+      .titulo-principal__numero.colr_3
         span 1
       h1 Distribución comercial
     
     .bg_grad-01
-      .row.mb-5.justify-center
+      .row.mb-5.justify-center.align-items-center
         .col-12.col-lg-5.p-4.p-lg-5(data-aos="fade-right")
-          p El concepto de distribución comercial abarca dos aspectos fundamentales que dependen del entorno, se entiende la distribución comercial como un sector de la economía y también como un proceso empresarial.
+          p El concepto de distribución comercial abarca dos aspectos fundamentales que dependen del entorno, <b>se entiende la distribución comercial como un sector de la economía y también como un proceso empresarial.</b>
         .col-12.col-lg-5(data-aos="fade-left")
           figure.mb-3  
             img(src='@/assets/curso/tema1/t1-1.png' alt='AvatarTop')
@@ -49,7 +49,7 @@
         figure.mb-3
           img.img450(src='@/assets/curso/tema1/t1-3.svg' alt='AvatarTop')
       .col-12.col-lg-7
-        SlyderA(tipo="b").bgr_3.modif_1
+        SlyderA(tipo="b").bgr_3.modif_1.modif_7
           .row.p-3.p-lg-5
             .col-12
               p 1. Cruz  (1991) considera que: “Para que las ventas de una empresa se produzcan no basta con tener un buen producto, a un buen precio y que sea conocido por los consumidores, sino que, además, es necesario que se encuentre en el lugar y momento adecuados para que ese producto sea accesible al consumidor” (p. 250). 
@@ -65,7 +65,7 @@
       span <em>Proceso empresarial de la distribución comercial</em>
 
     .row.mb-5.justify-center(data-aos="zoom-in-up")
-      .col-12.col-lg-8
+      .col-12.col-lg-6
         figure.mb-3
           img(src='@/assets/curso/tema1/t1-4.svg' alt='AvatarTop')
 
@@ -76,22 +76,34 @@
       .col-12.col-lg-7.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right").mb-3
           span Utilidades de la distribución comercial
-        SlyderA(tipo="b").bgr_4.modif_1
+        SlyderA(tipo="b").bgr_4.modif_1.modif_8
           .row.p-3.p-lg-5
-            .col-12
-              h4 1. Utilidad de lugar
+            .col-2.align-items-center
+              figure.mb-3.justify-end
+                img.img60(src='@/assets/curso/tema1/t1-5-1.svg' alt='AvatarTop')
+            .col-10
+              h4 Utilidad de lugar
               p Es la distribución comercial que corresponde a la producción de los productos, desde los lugares donde se producen hasta los lugares de consumo o puntos de venta. 
           .row.p-3.p-lg-5
-            .col-12
-              h4 2. Utilidad de tiempo:
+            .col-2.align-items-center
+              figure.mb-3.justify-end
+                img.img60(src='@/assets/curso/tema1/t1-5-2.svg' alt='AvatarTop')
+            .col-10
+              h4 Utilidad de tiempo:
               p Es la distribución comercial que pone el producto en el momento en el que el consumidor lo desee, por ello el comercio debe almacenarlo en almacenes o en las estanterías de los puntos de venta.
           .row.p-3.p-lg-5
-            .col-12
-              h4 3. Utilidad de forma y de creación de surtidos
+            .col-2.align-items-center
+              figure.mb-3.justify-end
+                img.img60(src='@/assets/curso/tema1/t1-5-3.svg' alt='AvatarTop')
+            .col-10
+              h4 Utilidad de forma y de creación de surtidos
               p Utilidad de forma y de creación de surtidos. Es la distribución comercial que adecua el producto comercializado a las necesidades del consumidor, la producción debe dirigirse a las tendencias del mercado con el ánimo de ser más eficiente creando productos que se ajusten a las necesidades del consumidor.
           .row.p-3.p-lg-5
-            .col-12
-              h4 4. Utilidad de posesión:
+            .col-2.align-items-center
+              figure.mb-3.justify-end
+                img.img60(src='@/assets/curso/tema1/t1-5-4.svg' alt='AvatarTop')
+            .col-10
+              h4 Utilidad de posesión:
               p Es la distribución comercial que entrega la cantidad de productos requerida.
       .col-12.col-lg-5(data-aos="zoom-in-down")
         figure.mb-3
@@ -118,11 +130,9 @@
       
     p.mb-5 En la distribución comercial intervienen varios tipos de intermediarios, estos van desde los mayoristas hasta los minoristas, todos tienen como objetivo que los productos lleguen al consumidor final; para conocer los tipos de intermediarios revise con atención el siguiente recurso educativo:
 
-    .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right").mb-3
+    .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right").mb-5
       span Tipos de intermediarios
-    
-    p.mb-5 En la distribución comercial intervienen varios tipos de intermediarios, estos van desde los mayoristas hasta los minoristas, todos tienen como objetivo que los productos lleguen al consumidor final; para conocer los tipos de intermediarios revise con atención el siguiente recurso educativo: 
-
+     
     .row.justify-center(data-aos="zoom-out-up")
       .col-12.col-lg-8
         .row.justify-center
@@ -275,7 +285,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Canales de distribución y logística
-              p.text-small Para ampliar la información respecto al tema de canales de distribución y logística comercial, le invitamos a consultar el video que está en los materiales complementarios denominado: <b>“Canales de distribución y logística”</b>, en donde encontrará aspectos fundamentales que permiten su entendimiento. 
+              p Para ampliar la información respecto al tema de canales de distribución y logística comercial, le invitamos a consultar el video que está en los materiales complementarios denominado: <b>“Canales de distribución y logística”</b>, en donde encontrará aspectos fundamentales que permiten su entendimiento. 
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/embed/Y9FGiUS1oik" target="_blank")
                 span Ver video
@@ -315,7 +325,7 @@
 
     .row.justify-center(data-aos="zoom-in-down")
       .col-12.col-lg-10
-        SlyderA(tipo="b").modif_4.bgr_9.p-4
+        SlyderA(tipo="b").modif_4.bgr_9.p-4.modif_8
           .row
             .col-md-6.mb-4.mb-md-0
               figure 

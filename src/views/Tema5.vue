@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-botones
-      .titulo-principal__numero
+      .titulo-principal__numero.colr_3
         span 5
       h1 Mobiliario, funcionalidad
     
-    p El mobiliario es muy importante porque contribuye en la gestión comercial y posiciona la imagen de las marcas, son el factor principal en la diferencia con la competencia.
+    p.text-bold El mobiliario es muy importante porque contribuye en la gestión comercial y posiciona la imagen de las marcas, son el factor principal en la diferencia con la competencia.
     p.mb-5 Las siguientes son las ventajas que un establecimiento puede tener si usa estratégicamente el mobiliario:
 
     .row.mb-5

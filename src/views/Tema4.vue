@@ -3,12 +3,12 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-botones
-      .titulo-principal__numero
+      .titulo-principal__numero.colr_3
         span 4
       h1 Material POP, tipología, manejo
     
     .row.mb-5.justify-center(data-aos="fade-right")
-      .col-12.col-lg-5.mb-3.mb-lg-0.bg_grad-06.mt-5.mt-lg-0
+      .col-12.col-lg-5.mb-3.mb-lg-0.bg_grad-06.mt-5.mt-lg-0.align-items-center
         p El material POP que en inglés traduce <em>Point of Purchase displays</em> (pantallas de punto de compra) es la publicidad impresa o digital que se coloca al lado de los productos exhibidos, asegurando que el cliente se relacione e interactúe con los productos, se convierte en un recurso de apoyo para las marcas, es utilizado para reforzar la comunicación, brindando información adicional del producto.
       .col-12.col-lg-5(data-aos="fade-left")
         figure
@@ -21,7 +21,7 @@
 
     p.mb-5 Los tipos de materiales POP son las diferentes herramientas con las que cuentan los formatos comerciales para promocionar las diferentes ofertas, el material POP está elaborado de diferentes materiales y puede usarse en una y otra temporada promocional, para conocerlos revise con atención la siguiente información:
 
-    SlyderA(tipo="b").bgr_24.modif_7(data-aos="zoom-in-down")
+    SlyderA(tipo="b").bgr_24.modif_1.modif_7.modif_10(data-aos="zoom-in-down")
       .row.p-3.p-lg-5
         .col-md-5.mb-4.mb-md-0.align-items-center
           div

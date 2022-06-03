@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-botones
-      .titulo-principal__numero
+      .titulo-principal__numero.colr_3
         span 3
       h1 Exhibición de mercancía
 
@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/tema3/t3-1.png' alt='AvatarTop')
       .col-12.col-lg-6.bg_grad-04(data-aos="fade-left")
-        p Es el proceso donde se seleccionan, ubican y exponen los artículos en el punto de venta, de tal forma que llamen la atención del cliente invitándolo a la compra, la exhibición comercial se selecciona según el tamaño y tipo de establecimiento condicionando la distribución de los productos a ofertar. 
+        p <b>Es el proceso donde se seleccionan, ubican y exponen los artículos en el punto de venta</b>, de tal forma que llamen la atención del cliente invitándolo a la compra, la exhibición comercial se selecciona según el tamaño y tipo de establecimiento condicionando la distribución de los productos a ofertar. 
         p.mb-0 La exposición de los artículos en un almacén o establecimiento se hace mediante el uso de un mobiliario especial que permite mostrar al cliente la mayor cantidad de productos, durante el mayor tiempo posible:
     
     p.mb-5 Para conocer los objetivos de exhibición de mercancía revise la siguiente información:
@@ -141,7 +141,7 @@
     
     p.mb-5 A continuación, se darán a conocer algunas exhibiciones adicionales o complementarias:
 
-    SlyderC.mb-3(:datos="datosSlyder")
+    SlyderC.mb-3(:datos="datosSlyder").modif_9
 
     p.mb-5 Una exhibición debe tener un grupo de características que avalen su funcionalidad y logren que se cumplan los objetivos del establecimiento. Por esta razón, la exhibición debe ser visible y atractiva a los ojos del cliente y, además, debe comunicar, puesto que el <em>merchandising</em> es comunicación visual en el interior del establecimiento.
 
@@ -186,33 +186,37 @@
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
               img.img120(src='@/assets/curso/tema3/t3-20.svg', alt='Texto que describa la imagen')
-          .col-md-10.mb-4.mb-md-0
-            h4 Puerta a la derecha
-            p Cuando el lugar de acceso está a la derecha, las zonas resultan de una línea diagonal que nace en el ángulo extremo izquierdo del punto de acceso y va hasta el ángulo extremo derecho más profundo de la superficie del establecimiento.
+          .col-md-10.mb-4.mb-md-0.align-items-center
+            div
+              h4 Puerta a la derecha
+              p.mb-0 Cuando el lugar de acceso está a la derecha, las zonas resultan de una línea diagonal que nace en el ángulo extremo izquierdo del punto de acceso y va hasta el ángulo extremo derecho más profundo de la superficie del establecimiento.
       .py-3.py-md-4(titulo="Paso 2")
         .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
               img.img120(src='@/assets/curso/tema3/t3-21.svg', alt='Texto que describa la imagen')
-          .col-md-10.mb-4.mb-md-0
-            h4 Puerta a la izquierda
-            p Lo contrario a la puerta anterior. La línea diagonal que nace en el ángulo extremo derecho del punto de acceso y va hasta el ángulo extremo izquierdo más profundo de la superficie del establecimiento.
+          .col-md-10.mb-4.mb-md-0.align-items-center
+            div
+              h4 Puerta a la izquierda
+              p.mb-0 Lo contrario a la puerta anterior. La línea diagonal que nace en el ángulo extremo derecho del punto de acceso y va hasta el ángulo extremo izquierdo más profundo de la superficie del establecimiento.
       .py-3.py-md-4(titulo="Paso 3")
         .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
               img.img120(src='@/assets/curso/tema3/t3-22.svg', alt='Texto que describa la imagen')
-          .col-md-10.mb-4.mb-md-0
-            h4 Puerta en el centro
-            p Se define de acuerdo a la circulación del cliente. Se traza una línea recta vertical hasta el centro del establecimiento y de ahí se traza otra línea recta horizontal hacia el costado izquierdo de la superficie del local
+          .col-md-10.mb-4.mb-md-0.align-items-center
+            div
+              h4 Puerta en el centro
+              p.mb-0 Se define de acuerdo a la circulación del cliente. Se traza una línea recta vertical hasta el centro del establecimiento y de ahí se traza otra línea recta horizontal hacia el costado izquierdo de la superficie del local
       .py-3.py-md-4(titulo="Paso 4")
         .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
               img.img120(src='@/assets/curso/tema3/t3-23.svg', alt='Texto que describa la imagen')
-          .col-md-10.mb-4.mb-md-0
-            h4 Dos puertas
-            p Por teoría, prácticamente carece de zonas frías ya que la circulación fluye de acuerdo al ingreso de las dos puertas. Por esto es vital encontrar la localización de las zonas con el fin de ubicar las secciones de forma estratégica.
+          .col-md-10.mb-4.mb-md-0.align-items-center
+            div
+              h4 Dos puertas
+              p.mb-0 Por teoría, prácticamente carece de zonas frías ya que la circulación fluye de acuerdo al ingreso de las dos puertas. Por esto es vital encontrar la localización de las zonas con el fin de ubicar las secciones de forma estratégica.
 
     .row.mb-5(data-aos="fade-right")
       .col-10.col-lg-4.position-relative

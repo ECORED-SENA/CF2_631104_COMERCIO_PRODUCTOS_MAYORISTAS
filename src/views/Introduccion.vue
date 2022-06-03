@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span
-          i.fas.fa-info
+          i.fas.fa-info.colr_2
       h1 Introducción
 
     p(data-aos="fade-right").mb-5 Bienvenido a este componente formativo denominado “Técnicas de exhibición de mercancía”, para comenzar el recorrido por el mismo, visite el siguiente video introductorio del tema: 

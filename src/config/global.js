@@ -132,25 +132,30 @@ export default {
   },
   complementario: [
     {
-      texto:
+      tema: '1.3. Logística comercial',
+      referencia:
         'Cervantes, V. [Betsabé Cervantes].(2017, 12 de febrero). Canales de distribución y logística. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/Y9FGiUS1oik',
     },
     {
-      texto:
+      tema: '3. Exhibición de mercancía',
+      referencia:
         'Stran, U. (2001.) Reglas básicas para exhibir mercancías. Oficina Internacional del Trabajo, Ginebra.',
       tipo: 'Documento',
       descarga: '/downloads/reglas.pdf',
     },
     {
-      texto:
+      tema: '6. Plan promocional, actividades y materiales',
+      referencia:
         'Bello, L. & Mangones, Y. (2020). Guía práctica para la elaboración de un plan de marketing. Bogotá: Ediciones Universidad Cooperativa de Colombia.',
       tipo: 'Documento',
       link: 'https://doi.org/10.16925/gcgp.22',
     },
     {
-      texto:
+      tema:
+        '7. Normativa ambiental, tipos de residuos y procedimientos de manejo',
+      referencia:
         'Universidad Pontifica Bolivariana (2008). Guía para el manejo integral de residuos. Universidad Pontificia Bolivariana. ISBN: 978-958-44-3071-7 Primera Edición. Medellín, Colombia.',
       tipo: 'Documento',
       descarga: '/downloads/guia_manejo_residuos.pdf',
