@@ -114,7 +114,7 @@
         ImagenInfografica.ptar_1.color-acento-contenido.mb-5
           template(v-slot:imagen)
             figure.mb-3
-                img(src='@/assets/curso/tema3/t3-10.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema3/t3-10.png' alt='AvatarTop')
           .tarjeta.bgr_20.p-3(x="21%" y="27%" numero="")
             p.text-bold 1. Exhibición de doble franja
             p.mb-0 En la misma estantería se exhiben dos líneas de productos que guarden alguna relación, una debe ser muy fuerte, (productos de gran consumo o básicos), y la otra línea con productos de impulso (dulces, chocolates.
