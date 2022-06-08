@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Técnicas de exhibición de mercancía.',
+    componenteFormativo: 'Técnicas de exhibición de mercancía',
     descripcionCurso:
       'La exhibición de la mercancía es una estrategia comercial que permite a las empresas mejorar sus ventas, este proceso cuenta con diferentes técnicas para que el empresario pueda elegir la que más le convenga según las necesidades de su negocio. En este componente formativo reconocerá dichas técnicas y las características de cada una de ellas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

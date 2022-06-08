@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema6/t6-1.png')})`}"
           )
           .bloque-texto-g__texto.pst_4.p-4.p-lg-5
-            p.mb-0 El plan promocional debe lograr objetivos de corto plazo simples, medibles y evaluables, tales como incrementar ventas o realizar una actividad específica por parte del cliente. Para conocer ejemplos de planes promocionales revise con atención el siguiente recurso: 
+            p.mb-0 El plan promocional debe lograr objetivos de corto plazo simples, medibles y evaluables, tales como incrementar ventas o realizar una actividad específica por parte del cliente. Para conocer ejemplos de planes promocionales revise con atención el siguiente recurso. 
     
     h3.justify-center.mb-5 Planes promocionales 
 
@@ -40,7 +40,7 @@
             p #[strong Atraer:] a los compradores de productos o servicios de otros sectores para que se sientan atraídos por los nuestros. 
             p #[strong Retener:] fidelizar al cliente.
             p #[strong Alimentar:] lograr que los clientes consuman con más frecuencia nuestros productos o servicios.
-            p #[strong Enfoque táctico de los objetivos:]
+            p #[strong Enfoque táctico de los objetivos]
             ul.lista-ul--color
               li.mb-4
                 i.fas.fa-paper-plane.colr_1
@@ -68,13 +68,13 @@
             p #[strong Canal:] identificar los mejores canales para la promoción del producto o servicio, entre otros están el Internet, el email, canal tradicional, mayoristas, minoristas, etc.
             p #[strong Red de ventas:] definir si serán las propias o externas.
             p #[strong Proveedores:] quienes van a suministrar el producto terminado o la materia prima.
-            p #[strong Consumidor final:]segmentar el mercado, Pymes, hombres, mujeres, niños, etc.
+            p #[strong Consumidor final:] segmentar el mercado, Pymes, hombres, mujeres, niños, etc.
         .row(titulo="03" subtitulo="Presupuesto")
           .col-lg-12.mb-4.mb-lg-0
             p El presupuesto debe definirse en tres criterios, el primero es los recursos con los que cuenta la empresa, el segundo teniendo en cuenta el porcentaje (%) de las ventas proyectadas y el tercero está en función de la competencia y sus gastos.
             .cajon.bgr_25.p-5.mb-4
               p.mb-0 El presupuesto debe obedecer a la realidad y debe coincidir con los objetivos, por ejemplo, si la previsión es optimista y el presupuesto ajustado no se considera realista.  
-        .row(titulo="04" subtitulo="Timing (tiempo)")
+        .row(titulo="04" subtitulo="<em>Timing</em> (tiempo)")
           .col-lg-12.mb-4.mb-lg-0
             p En el plan promocional se debe planear la fecha de la campaña y por cuánto tiempo va a durar en el punto de venta, también hay que crear un calendario de actividades.  
         .row(titulo="05" subtitulo="Mecánica, soportes e incentivos")

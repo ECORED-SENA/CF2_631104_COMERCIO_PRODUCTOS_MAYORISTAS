@@ -51,7 +51,7 @@
               img.img90(src='@/assets/curso/tema3/t3-3.svg' alt='AvatarTop')
           .col-12.col-lg-10.align-items-center
             div
-              p.text-bold 01. Situación de las secciones: 
+              p.text-bold 01. Situación de las secciones 
               | Cantidad de productos en góndola o exhibición adicional.
         .row.justify-center
           hr.pst_3
@@ -60,7 +60,7 @@
               img.img90(src='@/assets/curso/tema3/t3-4.svg' alt='AvatarTop')
           .col-12.col-lg-10.align-items-center
             div
-              p.text-bold 02. La circulación: 
+              p.text-bold 02. La circulación 
               | Espacio por donde van a circular los clientes.
         .row.justify-center
           hr.pst_3
@@ -69,7 +69,7 @@
               img.img90(src='@/assets/curso/tema3/t3-5.svg' alt='AvatarTop')
           .col-12.col-lg-10.align-items-center
             div
-              p.text-bold 03. Lugares y puntos de venta fríos y calientes: 
+              p.text-bold 03. Lugares y puntos de venta fríos y calientes 
               | En los fríos la venta es baja, los calientes incrementan las ventas.
         .row.justify-center
           hr.pst_3
@@ -78,7 +78,7 @@
               img.img90(src='@/assets/curso/tema3/t3-6.svg' alt='AvatarTop')
           .col-12.col-lg-10.align-items-center
             div
-              p.text-bold 04. Elementos en el exterior del punto de venta: 
+              p.text-bold 04. Elementos en el exterior del punto de venta 
               | Elementos que llamen la atención y despierten el interés del comprador.
         .row.justify-center
           hr.pst_3
@@ -87,10 +87,10 @@
               img.img90(src='@/assets/curso/tema3/t3-7.svg' alt='AvatarTop')
           .col-12.col-lg-10.align-items-center
             div
-              p.text-bold 05. Áreas complementarias: 
+              p.text-bold 05. Áreas complementarias 
               | Bodegaje, servicios adicionales y entretenimiento.
 
-    p.mb-5 Una vez organizado el interior del establecimiento, determinadas las diferentes secciones y definidos los espacios de los pasillos, se puede considerar el uso de los tipos de exhibición y el layout (diseño) del surtido.     
+    p.mb-5 Una vez organizado el interior del establecimiento, determinadas las diferentes secciones y definidos los espacios de los pasillos, se puede considerar el uso de los tipos de exhibición y el <em>layout</em> (diseño) del surtido.     
 
     .row.mb-5(data-aos="fade-right")
       .col-10.col-lg-4.position-relative
@@ -165,11 +165,11 @@
             img(src='@/assets/curso/tema3/t3-16.png', alt='Texto que describa la imagen')
         .col-md-6.mb-4.mb-md-0
           p Son zonas imaginarias que dividen el espacio en dos partes iguales: 
-          span.text-bold Zona caliente: 
-          | Área de circulación de forma natural por parte del cliente. Su técnica consiste en ubicar productos nuevos o de menor rotación.
+          span.text-bold Zona caliente:  
+          | área de circulación de forma natural por parte del cliente. Su técnica consiste en ubicar productos nuevos o de menor rotación.
           br
-          span.text-bold Zona fría:
-          | Área de circulación por donde el cliente transita muy poco. Su técnica consiste en ubicar productos de mayor rotación y promociones de venta con el objetivo de hacer transitar a los clientes por todo el lugar.
+          span.text-bold Zona fría: 
+          | área de circulación por donde el cliente transita muy poco. Su técnica consiste en ubicar productos de mayor rotación y promociones de venta con el objetivo de hacer transitar a los clientes por todo el lugar.
       .row(titulo="Las zonas se identifican según sea el punto de acceso").p-3.p-lg-5
         .col-md-6.mb-3.mb-lg-0
           figure
@@ -181,7 +181,7 @@
       span Puntos de acceso
     
     TabsC.color-acento-contenido.mb-5(data-aos="zoom-in-up")
-      .py-3.py-md-4(titulo="Paso 1")
+      .py-3.py-md-4(titulo="Puerta a la derecha")
         .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
@@ -190,7 +190,7 @@
             div
               h4 Puerta a la derecha
               p.mb-0 Cuando el lugar de acceso está a la derecha, las zonas resultan de una línea diagonal que nace en el ángulo extremo izquierdo del punto de acceso y va hasta el ángulo extremo derecho más profundo de la superficie del establecimiento.
-      .py-3.py-md-4(titulo="Paso 2")
+      .py-3.py-md-4(titulo="Puerta a la izquierda")
         .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
@@ -199,7 +199,7 @@
             div
               h4 Puerta a la izquierda
               p.mb-0 Lo contrario a la puerta anterior. La línea diagonal que nace en el ángulo extremo derecho del punto de acceso y va hasta el ángulo extremo izquierdo más profundo de la superficie del establecimiento.
-      .py-3.py-md-4(titulo="Paso 3")
+      .py-3.py-md-4(titulo="Puerta en el centro")
         .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
@@ -207,8 +207,8 @@
           .col-md-10.mb-4.mb-md-0.align-items-center
             div
               h4 Puerta en el centro
-              p.mb-0 Se define de acuerdo a la circulación del cliente. Se traza una línea recta vertical hasta el centro del establecimiento y de ahí se traza otra línea recta horizontal hacia el costado izquierdo de la superficie del local
-      .py-3.py-md-4(titulo="Paso 4")
+              p.mb-0 Se define de acuerdo a la circulación del cliente. Se traza una línea recta vertical hasta el centro del establecimiento y de ahí se traza otra línea recta horizontal hacia el costado izquierdo de la superficie del local.
+      .py-3.py-md-4(titulo="Dos puertas")
         .row.p-3.p-lg-5
           .col-md-2.mb-3.mb-lg-0
             figure.justify-center
@@ -226,7 +226,7 @@
     .row.mb-5
       .col-12.col-lg-9(data-aos="fade-right")
         p #[strong El planograma es una herramienta necesaria para la gestión eficaz del espacio donde se exhiben los productos en los establecimientos minoristas,] teniendo en cuenta que en la actualidad existe un mercado más complejo y competitivo, en el que ha aumentado el tamaño de las tiendas y el número de categorías de productos. Esta herramienta tiene como objetivos mejorar la presentación de los artículos y aumentar las ventas. 
-        p Planograma se define como instrumento del <em>merchandising</em> (promoción comercial) en el diseño o croquis (dibujo) a través de un software que describe detalladamente el lugar y diámetro en el que se van a ubicar los productos.
+        p Planograma se define como instrumento del <em>merchandising</em> (promoción comercial) en el diseño o croquis (dibujo) a través de un <em>software</em> que describe detalladamente el lugar y diámetro en el que se van a ubicar los productos.
         p.mb-0 Esta herramienta permite especificar la cantidad de productos y el número de caras con las que van a presentar la oferta, estas son la altura, profundidad y distancia que deben ocupar las distintas referencias. Se entiende por caras o <em>“facing”</em> al número de caras de un mismo producto que se necesitan para que el cliente los visualice.
       .col-12.col-lg-3(data-aos="fade-left") 
         figure
@@ -267,9 +267,9 @@
           .titulo-sexto.color-acento-botones.mt-3
             span #[strong 5.] Mejora la satisfacción del cliente facilitando las compras a través de lineales ordenados y atractivos visualmente.
           .titulo-sexto.color-acento-botones.mt-3
-            span #[strong 6.] Permite una revisión más estricta del inventario al ordenar las estanterías y los <em>facings</em> (frentes) basándose en la rotación, lo que da como resultado una reducción de las roturas del stock (espacios vacíos). 
+            span #[strong 6.] Permite una revisión más estricta del inventario al ordenar las estanterías y los <em>facings</em> (frentes) basándose en la rotación, lo que da como resultado una reducción de las roturas del <em>stock</em> (espacios vacíos). 
           .titulo-sexto.color-acento-botones.mt-3
-            span #[strong 7.] Influencia en la conducta del consumidor a realizar una acción de compra, por lo que se logra un aumento en las ventas y en la rentabilidad. 
+            span #[strong 7.] Influencia en la conducta del consumidor al realizar una acción de compra, por lo que se logra un aumento en las ventas y en la rentabilidad. 
           .titulo-sexto.color-acento-botones.mt-3
             span #[strong 8.] Es una herramienta efectiva para informar al personal la disposición determinada para el lineal.
 
@@ -287,13 +287,13 @@
         .col-md-2
           figure.justify-center
             img.img140(src='@/assets/curso/tema3/t3-29.svg', alt='Texto que describa la imagen')
-      .row(titulo="Extensión de la Categoría").px-5
+      .row(titulo="Extensión de la categoría").px-5
         .col-md-10.mb-4.mb-md-0.align-items-center
           p.mb-0 Cuál es el tamaño del espacio que le será asignado a la categoría. 
         .col-md-2
           figure.justify-center
             img.img140(src='@/assets/curso/tema3/t3-30.svg', alt='Texto que describa la imagen')
-      .row(titulo="Lugar del Producto").px-5
+      .row(titulo="Lugar del producto").px-5
         .col-md-10.mb-4.mb-md-0.align-items-center
           p.mb-0 Cómo asignar el sitio a cada artículo. Se puede tener en cuenta por la cantidad de ventas, por rotación, por encargos, por niveles de inventario, etc. 
         .col-md-2

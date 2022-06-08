@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Normativa ambiental y manejo de residuos
-        p.mb-4 #[b Objetivo] Afianzar conocimientos sobre normatividad ambiental y el manejo de residuos generados en el sector comercial, según normativa vigente.
+        p.mb-4 Afianzar conocimientos sobre normatividad ambiental y el manejo de residuos generados en el sector comercial, según normativa vigente.
         .tarjeta.bgr.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

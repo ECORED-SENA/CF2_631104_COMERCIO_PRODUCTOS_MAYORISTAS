@@ -11,9 +11,12 @@
       .row.mb-5.justify-center.align-items-center
         .col-12.col-lg-5.p-4.p-lg-5(data-aos="fade-right")
           p El concepto de distribución comercial abarca dos aspectos fundamentales que dependen del entorno, <b>se entiende la distribución comercial como un sector de la economía y también como un proceso empresarial.</b>
+          P Veamos:
         .col-12.col-lg-5(data-aos="fade-left")
           figure.mb-3  
             img(src='@/assets/curso/tema1/t1-1.png' alt='AvatarTop')
+    
+    
     
     .row.mb-5.justify-center(data-aos="fade-down")
       .col-12.col-lg-8
@@ -32,13 +35,9 @@
             figure.mb-3.justify-center
               img.img100(src='@/assets/curso/tema1/t1-2.svg' alt='AvatarTop')
           .col-12.col-lg-10
-            p.mb-0 #[strong ¡Atención!] Recuerde que las empresas distribuidoras permiten un vínculo entre los negociantes, que llegan a adquirir los productos que revenden (mayoristas y minoristas); mientras que las empresas no distribuidoras se limitan a ser las representantes del fabricante en la venta de sus productos a cambio de una compensación (agentes comerciales):
+            p.mb-0 Recuerde que las empresas distribuidoras permiten un vínculo entre los negociantes, que llegan a adquirir los productos que revenden (mayoristas y minoristas); mientras que las empresas no distribuidoras se limitan a ser las representantes del fabricante en la venta de sus productos a cambio de una compensación (agentes comerciales).
     
     p.mb-5 Existen otros conceptos de distribución comercial plasmados por diferentes autores, para conocerlos revise con atención el siguiente recurso educativo: 
-
-    figure.mb-5(data-aos="fade-down")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-3(data-aos="fade-right")
       .col-12.col-lg-5
@@ -55,10 +54,10 @@
               p 1. Cruz  (1991) considera que: “Para que las ventas de una empresa se produzcan no basta con tener un buen producto, a un buen precio y que sea conocido por los consumidores, sino que, además, es necesario que se encuentre en el lugar y momento adecuados para que ese producto sea accesible al consumidor” (p. 250). 
           .row.p-3.p-lg-5
             .col-12
-              p 2. Vásquez y Trespalacios (1997) manifiestan que “la distribución comercial, al encontrase entre la producción y el consumo, va a crear utilidades a los consumidores y servicios a los productores. La distribución crea al consumidor utilidad de lugar, de tiempo, de forma y de creación de surtidos y de posesión. (p.2829). 
+              p 2. Vásquez y Trespalacios (1997) manifiestan que “la distribución comercial, al encontrarse entre la producción y el consumo, va a crear utilidades a los consumidores y servicios a los productores. La distribución crea al consumidor utilidad de lugar, de tiempo, de forma y de creación de surtidos y de posesión. (p.2829). 
           .row.p-3.p-lg-5
             .col-12
-              p 3. Por su parte Santesmases (1999) menciona que además, la separación geográfica entre vendedores y compradores hace necesaria una función que acerque los productos desde los lugares donde son fabricados hasta los lugares donde son consumidos. Desde este punto de vista, la distribución comercial se puede definir como la función o instrumento del marketing  (mercadotecnia o estudio del mercado) que relaciona la producción con el consumo y cuya misión es poner el producto a disposición del consumidor en la cantidad demandada, en el momento en que lo necesite y en el lugar donde desee adquirirlo, desarrollando, además un conjunto de actividades como pueden ser las de información, promoción y presentación del producto en el punto de venta a fin de estimular la compra por parte de los consumidores. (p. 509).
+              p 3. Por su parte Santesmases (1999) menciona que además, la separación geográfica entre vendedores y compradores hace necesaria una función que acerque los productos desde los lugares donde son fabricados hasta los lugares donde son consumidos. Desde este punto de vista, la distribución comercial se puede definir como la función o instrumento del <em>marketing</em>  (mercadotecnia o estudio del mercado) que relaciona la producción con el consumo y cuya misión es poner el producto a disposición del consumidor en la cantidad demandada, en el momento en que lo necesite y en el lugar donde desee adquirirlo, desarrollando, además un conjunto de actividades como pueden ser las de información, promoción y presentación del producto en el punto de venta a fin de estimular la compra por parte de los consumidores. (p. 509).
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right").mb-3
       h5 Figura 1
@@ -89,7 +88,7 @@
               figure.mb-3.justify-end
                 img.img60(src='@/assets/curso/tema1/t1-5-2.svg' alt='AvatarTop')
             .col-10
-              h4 Utilidad de tiempo:
+              h4 Utilidad de tiempo
               p Es la distribución comercial que pone el producto en el momento en el que el consumidor lo desee, por ello el comercio debe almacenarlo en almacenes o en las estanterías de los puntos de venta.
           .row.p-3.p-lg-5
             .col-2.align-items-center
@@ -103,7 +102,7 @@
               figure.mb-3.justify-end
                 img.img60(src='@/assets/curso/tema1/t1-5-4.svg' alt='AvatarTop')
             .col-10
-              h4 Utilidad de posesión:
+              h4 Utilidad de posesión
               p Es la distribución comercial que entrega la cantidad de productos requerida.
       .col-12.col-lg-5(data-aos="zoom-in-down")
         figure.mb-3
@@ -146,15 +145,15 @@
                 p.mb-0 Intermediario que compra al por mayor productos terminados o materia prima, es decir compra grandes volúmenes para vender a los detallistas, otros mayoristas o fabricantes de productos. 
               .tarjeta.p-3(x="41%" y="50%" numero="")
                 p.text-bold 2. Detallista
-                p.mb-0 Empresario que vende directamente al por menor, al consumidor final (en inglés, retail); es decir, es el último en el canal de distribución y tiene relación directa con cliente, el detallista es propietario de la mercancía que vende. 
+                p.mb-0 Empresario que vende directamente al por menor, al consumidor final (en inglés, <em>retail</em>); es decir, es el último en el canal de distribución y tiene relación directa con cliente, el detallista es propietario de la mercancía que vende. 
               .tarjeta.p-3(x="82%" y="33%" numero="")
                 p.text-bold 3. Agente comercial
                 p.mb-0 Este intermediario representa a las empresas, promociona y vende los productos de marca, los agentes comerciales no tienen relación laboral con las marcas que representan, reciben comisión por ventas. 
               .tarjeta.p-3(x="55%" y="79%" numero="")
                 p.text-bold 4. Comisionista
-                p.mb-0 Empresario que vende directamente al por menor, al consumidor final (en inglés, retail); es decir, es el último en el canal de distribución y tiene relación directa con cliente, el detallista es propietario de la mercancía que vende. 
+                p.mb-0 Es un intermediario que no tiene relación laboral con la empresa que está representando, el comisionista realiza operaciones ocasionales, su relación comercial no es permanente.
               .tarjeta.p-3(x="67%" y="53%" numero="")
-                p.mb-0.text-bold 5. Corredor de comercio o <em>bróker</em> (agente intermediario en operaciones financiera o comerciales)
+                p.mb-0.text-bold 5. Corredor de comercio o <em>broker</em> (agente intermediario en operaciones financiera o comerciales)
                 p.mb-0 Es un intermediario esporádico, pone de acuerdo o relaciona a compradores y vendedores, trabaja por una comisión que acuerda con anterioridad. 
           .col-12.col-lg-4
             figure.mb-3
@@ -214,8 +213,7 @@
           li.mb-4 
             .lista-ol--cuadro__vineta
               span 7
-            | Participar en actividades de marketing
-            | (investigación de mercado).
+            p.mb-0 Participar en actividades de <em>marketing</em> (investigación de mercado).
           li.mb-4 
             .lista-ol--cuadro__vineta
               span 8

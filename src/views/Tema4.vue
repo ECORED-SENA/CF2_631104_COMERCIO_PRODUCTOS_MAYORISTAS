@@ -72,7 +72,7 @@
         .col-md-5.mb-4.mb-md-0.align-items-center
           div
             p.text-bold 6. Exhibidores temporales
-            p se definen como aquel material que cuenta con estructura modular simulando un mueble, son muy utilizados en el lanzamiento de productos o activación de ventas. 
+            p Se definen como aquel material que cuenta con estructura modular simulando un mueble, son muy utilizados en el lanzamiento de productos o activación de ventas. 
             p.mb-0 El exhibidor temporal cumple con funciones propias de su formato, entre ellas está la promoción de productos en determinadas zonas, resaltar artículos novedosos de la empresa, exhibir en temporada, hacerse más atractivo frente a la competencia.
         .col-md-7
           figure
@@ -80,8 +80,8 @@
       .row.p-3.p-lg-5
         .col-md-5.mb-4.mb-md-0.align-items-center
           div
-            p.text-bold 7. Banners
-            p son imágenes publicitarias digitales, se colocan en diferentes lugares como por ejemplo en las páginas web, su objetivo es atraer tráfico a la página del anunciante.
+            p.text-bold 7. <em>Banners</em>
+            p Son imágenes publicitarias digitales, se colocan en diferentes lugares como por ejemplo en las páginas web, su objetivo es atraer tráfico a la página del anunciante.
             p.mb-0 Los banners tienen diferentes formas y tamaños, incluyen imágenes, textos, videos y audios con el fin de llamar la atención, están ubicados en la parte superior de la página <em>web</em>, también pueden aparecer insertados entre su contenido, es un formato publicitario de internet, se crea a partir de imágenes en formato GIF, JPEG o PNG, cuentan con animaciones creadas con Java, Adobe <em>Shockware y Flash.</em>
         .col-md-7
           figure
@@ -90,7 +90,7 @@
         .col-md-5.mb-4.mb-md-0.align-items-center
           div
             p.text-bold 8. Banderines
-            p son elementos de ambientación que se utilizan entre otros en los formatos comerciales, se caracterizan porque permiten que una marca sobresalga entre la competencia, se utilizan cuando hay promociones especiales o en temporadas, también incrementan el número de visitas al punto de venta.
+            p Son elementos de ambientación que se utilizan entre otros en los formatos comerciales, se caracterizan porque permiten que una marca sobresalga entre la competencia, se utilizan cuando hay promociones especiales o en temporadas, también incrementan el número de visitas al punto de venta.
             p Cumple con las funciones de generar recordación sobre la marca, utiliza el espacio del techo para exhibir la publicidad y llamar la atención del cliente.
             p.mb-0 Se pueden elaborar de diferentes formas cuadrados, rectángulos, triángulos, se elaboran en papel o plástico y se adhieren a una cuerda.
         .col-md-7

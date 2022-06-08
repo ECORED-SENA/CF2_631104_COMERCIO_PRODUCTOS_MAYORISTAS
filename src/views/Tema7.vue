@@ -9,7 +9,7 @@
 
     .row.mb-5.justify-center
       .col-12.col-lg-8.mb-3.mb-lg-0(data-aos="fade-right")
-        p.mb-5 La Guía para el manejo integral de residuos como lo menciona el subsector de Centros Comerciales hace referencia a:
+        p.mb-5 La guía para el manejo integral de residuos como lo menciona el subsector de centros comerciales hace referencia a:
         div.position-relative.bg_grad-08
           p.text-bold.ms-5 La planeación y cobertura de las actividades relacionadas con los residuos, desde la generación hasta la disposición final, incluyendo los aspectos de segregación, movimiento interno, almacenamiento, desactivación, recolección, transporte y tratamiento, con lo cual se pretende evitar y minimizar la generación de residuos e incrementar el aprovechamiento de éstos, de tal suerte que cada vez sea menor la cantidad de residuos a disponer.
           img.img30.pst_5(src='@/assets/componentes/Icon awesome-quote-right.svg', alt='Texto que describa la imagen')
@@ -33,7 +33,7 @@
       .row.mb-5.justify-center
         .col-12.col-lg-7.mb-3.mb-lg-0(data-aos="fade-right")
           div.position-relative.bg_grad-09
-            p.text-bold.ms-5 Por el cual se reglamenta la gestión integral de los residuos generados en la atención en salud y otras actividades. CONSIDERANDO: Que el Gobierno nacional expidió el Decreto número 2676 de 2000 modificado por los Decretos números 2763 de 2001, 1669 de 2002 y 4126 de 2005.
+            p.text-bold.ms-5 Por el cual se reglamenta la gestión integral de los residuos generados en la atención en salud y otras actividades. CONSIDERANDO: que el Gobierno nacional expidió el Decreto número 2676 de 2000 modificado por los Decretos números 2763 de 2001, 1669 de 2002 y 4126 de 2005.
             img.img30.pst_5(src='@/assets/componentes/Icon awesome-quote-right.svg', alt='Texto que describa la imagen')
             img.img30.pst_7(src='@/assets/componentes/Icon awesome-quote-right.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-1(data-aos="fade-left")
