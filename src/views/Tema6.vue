@@ -68,13 +68,13 @@
             p #[strong Canal:] identificar los mejores canales para la promoción del producto o servicio, entre otros están el Internet, el email, canal tradicional, mayoristas, minoristas, etc.
             p #[strong Red de ventas:] definir si serán las propias o externas.
             p #[strong Proveedores:] quienes van a suministrar el producto terminado o la materia prima.
-            p #[strong Consumidor final:] segmentar el mercado, Pymes, hombres, mujeres, niños, etc.
+            p #[strong Consumidor final:] segmentar el mercado, pymes, hombres, mujeres, niños, etc.
         .row(titulo="03" subtitulo="Presupuesto")
           .col-lg-12.mb-4.mb-lg-0
             p El presupuesto debe definirse en tres criterios, el primero es los recursos con los que cuenta la empresa, el segundo teniendo en cuenta el porcentaje (%) de las ventas proyectadas y el tercero está en función de la competencia y sus gastos.
             .cajon.bgr_25.p-5.mb-4
               p.mb-0 El presupuesto debe obedecer a la realidad y debe coincidir con los objetivos, por ejemplo, si la previsión es optimista y el presupuesto ajustado no se considera realista.  
-        .row(titulo="04" subtitulo="<em>Timing</em> (tiempo)")
+        .row(titulo="04" subtitulo="Timing (tiempo)")
           .col-lg-12.mb-4.mb-lg-0
             p En el plan promocional se debe planear la fecha de la campaña y por cuánto tiempo va a durar en el punto de venta, también hay que crear un calendario de actividades.  
         .row(titulo="05" subtitulo="Mecánica, soportes e incentivos")

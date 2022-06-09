@@ -101,7 +101,7 @@
 
     .row.justify-center.mb-5
       .col-12.col-lg-5.mb-3.mb-lg-0.bg_grad-05(data-aos="fade-right")
-        p Una exhibición debe contar con una excelente exposición de los productos para poder llamar la atención del público que con frecuencia visita el establecimiento. En cada sección se debe emplear un buen merchandising (promoción o comercialización) y utilizar los mejores elementos para su producción, lo cual es vital en la rotación del artículo que forme parte de la exhibición.
+        p Una exhibición debe contar con una excelente exposición de los productos para poder llamar la atención del público que con frecuencia visita el establecimiento. En cada sección se debe emplear un buen <em>merchandising</em> (promoción o comercialización) y utilizar los mejores elementos para su producción, lo cual es vital en la rotación del artículo que forme parte de la exhibición.
         p.mb-0 Por lo general, los clientes toman las decisiones de compra directamente en el punto de venta, por lo que una efectiva exhibición de los artículos puede influir positivamente en la toma de la decisión.
       .col-12.col-lg-5(data-aos="fade-left")
         figure.justify-center
