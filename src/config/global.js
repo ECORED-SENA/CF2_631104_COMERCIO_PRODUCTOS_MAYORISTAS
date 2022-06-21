@@ -289,18 +289,18 @@ export default {
       },
       {
         nombre: 'Esperanza Cardona Grisales',
-        cargo: 'Experta Temática',
+        cargo: 'Experta temática',
         centro: 'Centro de Comercio y Servicios Regional - Cauca',
       },
       {
         nombre: 'Jeimy Lorena Romero Perilla',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro:
           'Centro de la industria, la empresa y los servicios Regional - Norte de Santander',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Asesor Metodológico',
+        cargo: 'Asesor metodológico',
         centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
       },
       {
