@@ -239,7 +239,7 @@
           .py-3.py-md-4.px-3.px-md-4(titulo="Mayoristas")
             figure.mb-3
               img(src='@/assets/curso/tema1/t1-12.png' alt='AvatarTop')
-            p.mb-0 Son intermediarios entre el fabricante y los minoristas, se dedican a la compra y venta de los productos y servicios en grandes volúmenes, a su vez estos estos venden a otros mayoristas o fabricantes, especialmente a los minoristas, los cuales por lo general no tienen relación con el mayorista.
+            p.mb-0 Son intermediarios entre el fabricante y los minoristas, se dedican a la compra y venta de los productos y servicios en grandes volúmenes, a su vez estos venden a otros mayoristas o fabricantes, especialmente a los minoristas, los cuales por lo general no tienen relación con el mayorista.
           .py-3.py-md-4.px-3.px-md-4(titulo="Minoristas")
             figure.mb-3
               img(src='@/assets/curso/tema1/t1-13.png' alt='AvatarTop')
@@ -300,7 +300,7 @@
     .row.mb-5(data-aos="fade-right")
       .col-10.col-lg-4.position-relative
         h3.p-3.bgr_2.text-center Ventajas de una logística eficiente
-        img.pst(src='@/assets/curso/tema1/t1-19.svg' alt='AvatarTop')
+        img.pst_9(src='@/assets/curso/tema1/t1-19.svg' alt='AvatarTop')
     
     .row.mb-5
       .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in-up")

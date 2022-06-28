@@ -96,7 +96,7 @@
                 | Fecha de sorteo (día en el que se va a sortear el carro, nevera, etc.).
               li.mb-4
                 i.fas.fa-paper-plane.colr_1
-                | Cláusula protección de datos (de los clientes que se encuentran el su base de datos).
+                | Cláusula protección de datos (de los clientes que se encuentran en su base de datos).
               li.mb-4
                 i.fas.fa-paper-plane.colr_1
                 | Premios (descuentos, bonos, promociones, regalos, etc.).

@@ -36,9 +36,9 @@
         .cajon.bgr_17.p-4.mb-4
           p.mb-0 6. Apoyar las promociones de venta (descuentos, ofertas, 2x1).
         .cajon.bgr_18.p-4.mb-4
-          p.mb-0 7. Recordar al cliente la presencia de un producto que pueda estas necesitando. 
+          p.mb-0 7. Recordar al cliente la presencia de un producto que pueda estar necesitando. 
         .cajon.bgr_19.p-4.mb-4
-          p.mb-0 8. Motivas la acción de compra por impulso.
+          p.mb-0 8. Motivar la acción de compra por impulso.
     
     p.mb-5 Según sea la disposición del establecimiento, el administrador que es el responsable del lugar y de la exhibición, tiene como objetivo organizarlo según:
 
@@ -123,7 +123,7 @@
             p.mb-0 El producto se ubica en bloques (sin dejar espacio) en la estantería.
           .tarjeta.bgr_20.p-3(x="35%" y="69%" numero="")
             p.text-bold 3. Exhibición en <em>check out</em> (verificar)
-            p.mb-0 Productos que se encuentran cerca de las cajas para que el cliente realice una acción de compra por impulso en el momento de hacer la fila para pagar, chocolates, chicles, galletas).
+            p.mb-0 Productos que se encuentran cerca de las cajas para que el cliente realice una acción de compra por impulso en el momento de hacer la fila para pagar, chocolates, chicles, galletas.
           .tarjeta.bgr_20.p-3(x="57%" y="38%" numero="")
             p.text-bold 4. Exhibición especial
             p.mb-0 Tiene un diseño diferente al de un lineal, góndola o estantería. Puede ser un exhibidor diseñado exclusivamente para el producto, o también puede ser una isla, y por lo general se usa cuando hay una promoción de venta o se está lanzando.

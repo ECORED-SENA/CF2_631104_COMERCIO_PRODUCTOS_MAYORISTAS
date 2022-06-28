@@ -82,7 +82,7 @@
           div
             p.text-bold 7. <em>Banners</em>
             p Son imágenes publicitarias digitales, se colocan en diferentes lugares como por ejemplo en las páginas web, su objetivo es atraer tráfico a la página del anunciante.
-            p.mb-0 Los banners tienen diferentes formas y tamaños, incluyen imágenes, textos, videos y audios con el fin de llamar la atención, están ubicados en la parte superior de la página <em>web</em>, también pueden aparecer insertados entre su contenido, es un formato publicitario de internet, se crea a partir de imágenes en formato GIF, JPEG o PNG, cuentan con animaciones creadas con Java, Adobe <em>Shockware y Flash.</em>
+            p.mb-0 Los banners tienen diferentes formas y tamaños, incluyen imágenes, textos, videos y audios con el fin de llamar la atención, están ubicados en la parte superior de la página <em>web</em>, también pueden aparecer insertados entre su contenido, es un formato publicitario de internet, se crea a partir de imágenes en formato GIF, JPEG o PNG, cuentan con animaciones creadas con Java y otros.
         .col-md-7
           figure
             img(src='@/assets/curso/tema4/t4-9.png', alt='Texto que describa la imagen')
